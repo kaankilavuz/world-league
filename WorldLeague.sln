@@ -1,0 +1,76 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "aspnet-core", "aspnet-core", "{038F6413-A511-4F88-82D0-13A5DA888E44}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "shared", "shared", "{249FAE05-4C89-48BB-9579-81A3BAE6E759}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WorldLeague.SharedKernel", "aspnet-core\shared\WorldLeague.SharedKernel\WorldLeague.SharedKernel.csproj", "{0DFFD393-3B07-46E9-BFA3-0AA40D3E5E7A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{FF2A3C4B-435D-4865-91D4-190542EF0E05}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{A4D334F6-5ACE-4B3D-8997-B61CAC30A9A3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WorldLeague.Application", "aspnet-core\src\Core\WorldLeague.Application\WorldLeague.Application.csproj", "{1FA57DB4-57D0-4158-B57C-312BFC2D28D2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WorldLeague.Domain", "aspnet-core\src\Core\WorldLeague.Domain\WorldLeague.Domain.csproj", "{33474D32-2D60-4891-A745-3F808CF4AB1A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{FABA967D-B040-407C-A786-C28EAD7E3C3A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WorldLeague.EntityFrameworkCore", "aspnet-core\src\Infrastructure\WorldLeague.EntityFrameworkCore\WorldLeague.EntityFrameworkCore.csproj", "{4B796124-4BF5-4984-B338-62A51D7B0747}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ui", "Ui", "{5EFE30DF-FACB-4F90-A5EB-A4297E948E5A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WorldLeague.Web.Api", "aspnet-core\src\Ui\WorldLeague.Web.Api\WorldLeague.Web.Api.csproj", "{FEC72E3B-8B96-4590-BFA1-4324067980D7}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{71F2AFA6-B37F-4B47-9087-EABBA673B51F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0DFFD393-3B07-46E9-BFA3-0AA40D3E5E7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DFFD393-3B07-46E9-BFA3-0AA40D3E5E7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DFFD393-3B07-46E9-BFA3-0AA40D3E5E7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DFFD393-3B07-46E9-BFA3-0AA40D3E5E7A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1FA57DB4-57D0-4158-B57C-312BFC2D28D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FA57DB4-57D0-4158-B57C-312BFC2D28D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FA57DB4-57D0-4158-B57C-312BFC2D28D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FA57DB4-57D0-4158-B57C-312BFC2D28D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33474D32-2D60-4891-A745-3F808CF4AB1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33474D32-2D60-4891-A745-3F808CF4AB1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33474D32-2D60-4891-A745-3F808CF4AB1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33474D32-2D60-4891-A745-3F808CF4AB1A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B796124-4BF5-4984-B338-62A51D7B0747}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B796124-4BF5-4984-B338-62A51D7B0747}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B796124-4BF5-4984-B338-62A51D7B0747}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B796124-4BF5-4984-B338-62A51D7B0747}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FEC72E3B-8B96-4590-BFA1-4324067980D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEC72E3B-8B96-4590-BFA1-4324067980D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEC72E3B-8B96-4590-BFA1-4324067980D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEC72E3B-8B96-4590-BFA1-4324067980D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71F2AFA6-B37F-4B47-9087-EABBA673B51F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71F2AFA6-B37F-4B47-9087-EABBA673B51F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71F2AFA6-B37F-4B47-9087-EABBA673B51F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71F2AFA6-B37F-4B47-9087-EABBA673B51F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{249FAE05-4C89-48BB-9579-81A3BAE6E759} = {038F6413-A511-4F88-82D0-13A5DA888E44}
+		{0DFFD393-3B07-46E9-BFA3-0AA40D3E5E7A} = {249FAE05-4C89-48BB-9579-81A3BAE6E759}
+		{FF2A3C4B-435D-4865-91D4-190542EF0E05} = {038F6413-A511-4F88-82D0-13A5DA888E44}
+		{A4D334F6-5ACE-4B3D-8997-B61CAC30A9A3} = {FF2A3C4B-435D-4865-91D4-190542EF0E05}
+		{1FA57DB4-57D0-4158-B57C-312BFC2D28D2} = {A4D334F6-5ACE-4B3D-8997-B61CAC30A9A3}
+		{33474D32-2D60-4891-A745-3F808CF4AB1A} = {A4D334F6-5ACE-4B3D-8997-B61CAC30A9A3}
+		{FABA967D-B040-407C-A786-C28EAD7E3C3A} = {FF2A3C4B-435D-4865-91D4-190542EF0E05}
+		{4B796124-4BF5-4984-B338-62A51D7B0747} = {FABA967D-B040-407C-A786-C28EAD7E3C3A}
+		{5EFE30DF-FACB-4F90-A5EB-A4297E948E5A} = {FF2A3C4B-435D-4865-91D4-190542EF0E05}
+		{FEC72E3B-8B96-4590-BFA1-4324067980D7} = {5EFE30DF-FACB-4F90-A5EB-A4297E948E5A}
+	EndGlobalSection
+EndGlobal
